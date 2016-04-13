@@ -5,7 +5,6 @@ module Barabut
 			valid_options.merge!(:start_date => Barabut::DATE.now) unless valid_options[:start_date]
 			valid_options.merge!(:validity_period => 1440) unless valid_options[:validity_period]
 
-
 			body = Barabut::XmlBody.send_sms_body(recipient, message_text, valid_options)
 
 			response = send_request(body)

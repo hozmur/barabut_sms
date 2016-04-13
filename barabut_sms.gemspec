@@ -1,6 +1,6 @@
 Gem::Specification.new do |s|
   s.name        = 'barabut_sms'
-  s.version     = '0.1'
+  s.version     = '0.1.2'
   s.date        = '2016-04-08'
   s.summary     = "SMS sender for Turkey barabut.com!"
   s.description = "This gem is for sending SMS using Barabut.com services"

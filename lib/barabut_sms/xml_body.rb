@@ -7,7 +7,7 @@ module Barabut
 			            <Password>#{Barabut.configuration.password}</Password>
 			            <Username>#{Barabut.configuration.usercode}</Username>
 			    </Credential>
-			    <DataCoding>Default</DataCoding>
+			    <DataCoding>#{valid_options[:unicode] ? 'UCS2' : 'Default'}</DataCoding>
 			    <Header>
 			            <From>#{valid_options[:from]}</From>
 			    </Header>
